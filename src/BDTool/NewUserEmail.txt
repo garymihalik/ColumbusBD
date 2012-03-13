@@ -1,0 +1,9 @@
+Welcome <%UserName%>,
+
+You have been invited to join the Centric Business Development Site.  Here you will be able to track opportunities and managing forecasting.
+
+Here is your password to log in: <%Password%>
+
+After logging in at http://www.centricbd.com you may click the "Profile" link on the left hand side of the page to change your password to something more desirable.
+
+Thanks

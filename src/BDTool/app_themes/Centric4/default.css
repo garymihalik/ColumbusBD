@@ -1,0 +1,390 @@
+/*Centric Typical Page Layout*/
+body
+{
+    padding: 0; 
+	margin: 0; 
+	font: .74em Arial, sans-serif; 
+	line-height: 1.5em; 
+    color: #000000;
+}
+#header
+{
+    background-position: left bottom;
+    width: 100%;
+    height: 15%;
+    background-color: #FFFFFF;
+    color: #000000;
+    font: bold 1.8em Arial, Sans-Serif;
+    padding: 8px 0 4px 0;
+    margin: 0;
+    border-bottom:solid 1px;
+}
+#leftcol {
+  float: left;
+  width: 14%;
+  border-right:solid 1px;
+  clear:left;
+  text-align:right;
+  margin-right:1px
+}
+hr { height: 1px; border-style: none; margin: 10px 0; }
+#content {
+  float: left;
+  width: 82%;
+  padding-right:2%;
+  height: 90%;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  margin-right: 0px;
+  clear:right;  
+  border-left:solid 1px;
+  padding-left:1%;
+  margin-left:-2px;
+}
+#contenttwo {
+  float: left;
+  width: 200%;
+  overflow-x:scroll;
+  overflow-y:scroll;
+  padding-right:2%;
+  margin-right: 0px;
+  border-left:solid 1px;
+  padding-left:1%;
+  margin-left:-2px;
+}
+#footer 
+{
+    clear:both;
+    margin: 0 0 3em 0; 
+    color: #000000;  
+    background: #ffffff;
+    border-top:solid 1px; 
+    }
+#footer .right  { float: right; text-align: right; background: #FfffFF; }
+#footer a { text-decoration: none; background: #FfffFF }
+#privacy {float:right;clear:both}
+#copyright {float:right;clear:both}
+/*For Report Selection Tab*/
+.ReportTab
+{
+    background-color:#FAFFD1;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-top:2%;
+    margin:-1.5%;
+    text-align:center;
+    vertical-align:middle;
+
+}
+/*New Gridview Sorting Visual Format*/
+
+.headerstyle th
+{
+    background-position: 0px 0px;
+    background: url(images/sprite.png) repeat-x 0px 0px;
+    border-color: #989898 #cbcbcb #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: #000;
+    padding: 4px 5px 4px 10px;
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: bold;
+}  
+
+.headerstyle th a
+{
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    display: block;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.RowStyle .AltRowStyle
+{
+    padding: 4px 10px 4px 10px;
+    border-right: solid 1px #cbcbcb;
+}
+.sortalternatingrowstyle{
+    background-color:#ffffff
+}
+.sortrowstyle{
+    background-color:#FAFFD1
+}
+.headerstyle .sortascheaderstyle
+{
+    /*background: #cbcbcb url(images/sort_asc.gif) no-repeat scroll right center;*/
+    background: #cbcbcb url(images/sort_asc.gif) no-repeat right 50%;
+}
+.headerstyle .sortdescheaderstyle{
+    /*background:#cbcbcb url(images/sort_desc.gif) no-repeat scroll right center;*/
+    background: #cbcbcb url(images/sort_desc.gif) no-repeat right 50%;
+}
+/*Experimental Div - comeback to*/
+.panel
+{
+    background-color:#FAFFD1;
+}
+.altpanel
+{
+    
+}
+/*Used By EW Dropdown on ManageOrgSTructure.aspx*/
+.lfloat
+{
+    float:left;
+}	
+
+/*Darkens background for viewing/selecting*/
+.modalBackground
+{
+	background-color:#000000;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+/*CSS for UpdateProgress Panel*/
+div.progress
+{
+    border-style: solid;
+    border-width: thin;
+    z-index: 99999;
+    background: #FFFFFF url(images/hbg.gif) repeat scroll 0%; /*background-color: #F7FFDA;*/
+    top: 15%; /*matches header above so that panel will appear more centered on page*/
+    left: 14%; /*matches leftcol above */
+    width: 95%;
+    height: 100%;
+    position: absolute;
+    vertical-align: middle;
+    margin: 2px;
+}
+
+
+/*Used By xxxxxxxDetail.aspx pages as a header*/
+div.AreaHeader
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial;
+    float: left;
+    clear: left;
+    margin-top: 1em;
+}
+/*Used By xxxxxxxDetail.aspx pages as an div inside a div.Areaheader*/
+div.AreaItem
+{
+    background: #ffffff;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+/*DataGrid Styles*/
+/*referenced in skin file*/
+.GenericGridHeader
+{
+    color: #000000;
+}
+
+/**/
+.Hide
+{
+	display:none;
+}
+.selectedrow
+{
+    color: #000000;
+    background-color: #FFB612;
+    background: url(images/selectedrow.jpg) repeat;
+}
+.AccordianHeader
+{
+	background:url(images/hbg.gif) repeat-x;
+}
+.MyCalendar .ajax__calendar_container
+{
+    background-color:#FAFFD1;
+}
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: #ffffff;
+}
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: #ffffff;
+}
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: #ffffff;
+    font-weight:bold;
+}
+/*Navigation Stuff*/
+.NavItemClass
+{
+    text-align: right;
+    color: #6B3B2E;
+    padding-right: 2%;
+}
+.NavHeaderClass
+{ 
+	text-align:center;
+    background-color:#412D5D;
+    color:#ffffff;
+}
+/*Used by Text boxes with dates on teh xxxxdetails.aspx pages*/
+.DateTextBox
+{
+    text-align:right;
+}
+/*Used by textbox in teh skin file*/
+.button
+{
+    cursor:pointer;
+}
+/*Used by UserDefinedFields.ascx to control alternating colors to simulate grid feel*/
+.UDF_Odd
+{
+    float:left;
+    clear:both;
+    width:100%;
+    background-color:#ffffff;
+}
+.UDF_Even
+{
+    float:left;
+    clear:both;
+    width:100%;
+    background-color:#FAFFD1;
+}
+/************ PasswordStrength Related Styles ***********************/
+.TextIndicator_TextBox1
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+}
+
+.BarIndicator_TextBox2_weak
+{
+    color:Red;
+    background-color:Red;
+}
+.BarIndicator_TextBox2_average
+{
+    color:Blue;
+    background-color:Blue;
+}
+.BarIndicator_TextBox2_good
+{
+    color:Green;
+    background-color:Green;
+}
+
+.BarBorder_TextBox2
+{
+    border-style:solid;
+    border-width:1px;
+    padding:2px 2px 2px 2px;
+    width:200px;
+    vertical-align:middle;
+}
+
+.TextIndicator_TextBox3
+{
+     background-color:Blue;
+     color:Yellow;
+     font-size:small;
+     font-variant:small-caps;
+     padding: 2px 3px 2px 3px;
+}
+
+.TextIndicator_TextBox3_Handle
+{
+	width:16px;
+	height:14px;
+	background-image:url(images/Question.png);
+	overflow:hidden;
+	cursor:help;
+}
+
+.TextIndicator_TextBox1_Strength1
+{
+     background-color:Gray;
+     color:White;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength2
+{
+     background-color:Gray;
+     color:Yellow;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength3
+{
+     background-color:Gray;
+     color: #FFCAAF;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength4
+{
+     background-color:Gray;
+     color:Aqua;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+.TextIndicator_TextBox1_Strength5
+{
+     background-color:Gray;
+     color: #93FF9E;
+     font-family:Arial;
+     font-size:x-small;
+     font-style:italic;
+     padding: 2px 3px 2px 3px;
+     font-weight:bold;
+}
+
+
+
+.dynamicPopulate_Normal
+{
+	border:silver 1px inset;
+	padding:2px;
+	text-align:center;
+	height:2em;
+	margin:5px;
+	width:200px;
+}
+
+.dynamicPopulate_Updating 
+{
+	background-image:url(images/loading.gif);
+	background-repeat:no-repeat;
+	border:silver 1px inset;
+	text-align:center;
+	padding:2px;
+	height:2em;
+	margin:5px;
+	width:200px;
+}
+/************ PasswordStrength Related Styles ***********************/

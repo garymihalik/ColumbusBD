@@ -1,0 +1,25 @@
+Copyright © 2009, Joseph Ours
+All rights reserved.
+
+Location.  
+Subject to the below requirements, Centric may install and use the software on any computer system(s) or central processing unit(s) selected by Centric from time to time.  
+
+Copies.  
+Centric may make one (1) copy of each of the Software Deliverables for testing, backup or archival purposes and not for production use.  In making copies of the Software Deliverables, Centric may not remove any copyright or other proprietary rights notices contained in or placed upon the Software Deliverables by Joseph Ours.
+
+Restrictions.  
+Centric may not (except if expressly authorized to do so elsewhere in this Agreement): (a) reproduce, publicly display, publicly perform, distribute, or create derivative works from the Software Deliverables; (b) provide third parties with access to the Software Deliverables under a service bureau, time sharing, or other arrangement; or (c) reverse engineer, decompile, disassemble, or otherwise attempt to derive or access any of the Software Deliverables' source code and/or human readable embodiment.
+
+Redistribution and use in source or binary forms, with or without modification, are not permitted without expressed, direct, written approval of copyright owner.
+Any authorized redistributions of source code must retain the above copyright notice, this entire notice.
+Any authorized redistributions of binaries must retain the above copyright notice, this entire notice.
+Neither Joseph Ours, nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+OWNERSHIP, TITLE AND RISK OF LOSS.  
+Ownership of, title to, and risk of loss for the Deliverables passes to Centric upon acceptance of the Deliverables by Centric, as construed by use of any part of the product.  However, ownership, title and risk of loss for the Software Deliverables applies to the copy only and does not extend to the intellectual property and other proprietary rights in the Software Deliverables.  
+
+DISCLAIMER OF WARRANTIES. 
+YOUR USE OF THE BD TOOL PRODUCTS AND SOFTWARE IS AT YOUR SOLE RISK. THE BD TOOL PRODUCTS AND SOFTWARE ARE PROVIDED "AS IS," "WITH ALL FAULTS" AND "AS AVAILABLE" FOR YOUR USE, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, UNLESS SUCH WARRANTIES ARE LEGALLY INCAPABLE OF EXCLUSION. SPECIFICALLY, JOSEPH OURS AND ITS VENDORS DISCLAIM TOOL IMPLIED WARRANTIES THAT THE BD TOOL PRODUCTS AND SOFTWARE ARE MERCHANTABLE, OF SATISFACTORY QUALITY, ACCURATE, FIT FOR A PARTICULAR PURPOSE OR NEED, OR NON-INFRINGING. JOSEPH OURS AND ITS VENDORS DO NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE BD TOOL PRODUCTS AND SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OF THE BD TOOL PRODUCTS AND SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE BD TOOL PRODUCTS AND SOFTWARE WILL BE CORRECTED. JOSEPH OURS AND ITS VENDORS DO NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE BD TOOL PRODUCTS, SOFTWARE OR RELATED DOCUMENTATION IN TERMS OF THEIR CORRECTNESS, ACCURACY, RELIABILITY OR OTHERWISE. JOSEPH OURS PROVIDES THE JOSEPH OURS PRODUCTS AND SOFTWARE ON A COMMERCIALLY REASONABLE BASIS AND DOES NOT GUARANTEE THAT USERS WILL BE ABLE TO ACCESS OR USE THE BD TOOL PRODUCTS AT TIMES OR LOCATIONS OF THEIR CHOOSING, OR THAT JOSEPH OURS WILL HAVE ADEQUATE CAPACITY FOR THE BD TOOL PRODUCTS AS A WHOLE.
+ 
+LIMITATION OF LIABILITY. 
+JOSEPH OURS'S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY WITH RESPECT TO ANY DISPUTE WITH JOSEPH OURS (INCLUDING WITHOUT LIMITATION YOUR USE OF THE SOFTWARE OR BD TOOL PRODUCTS) IS TO DISCONTINUE YOUR USE OF THE BD TOOL PRODUCTS AND SOFTWARE. JOSEPH OURS AND ITS VENDORS SHALL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR EXEMPLARY DAMAGE ARISING FROM YOUR USE OF THE BD TOOL PRODUCTS, SOFTWARE OR FOR ANY OTHER CLBD TOOL RELATED IN ANY WAY TO YOUR USE OR REGISTRATION WITH BD TOOL PRODUCTS AND SOFTWARE. THESE EXCLUSIONS FOR INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES INCLUDE, WITHOUT LIMITATION, DAMAGES FOR LOST PROFITS, LOST DATA, LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF JOSEPH OURS HAD BEEN ADVISED OF THE POSSIBILITY THEREOF AND REGARDLESS OF THE LEGAL OR EQUITABLE THEORY UPON WHICH THE CLBD TOOL IS BASED. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR THE LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, IN SUCH STATES OR JURISDICTIONS, JOSEPH OURS AND ITS VENDORS' LIABILITY IN SUCH STATE OR JURISDICTION SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW. JOSEPH OURS DOES NOT ENDORSE, WARRANT OR GUARANTEE ANY PRODUCT OR SERVICE OFFERED THROUGH BD TOOL PRODUCTS AND WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.

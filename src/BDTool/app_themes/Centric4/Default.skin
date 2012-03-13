@@ -1,0 +1,112 @@
+<%@ Register Assembly="eWorld.UI, Version=2.0.6.2393, Culture=neutral, PublicKeyToken=24d65337282035f2" Namespace="eWorld.UI" TagPrefix="ew" %>
+<%@ Register Assembly="WebChart" Namespace="WebChart" TagPrefix="WebChart" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register Assembly="RealWorld.Grids" Namespace="RealWorld.Grids" TagPrefix="cc2" %>
+<%--Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:TextBox runat="server" BorderColor="#000000" BorderStyle="Solid" BorderWidth="1px"/>
+<asp:TextBox runat="server" skinid="Watermark" Forecolor="#696969" BorderColor="#000000" BorderStyle="Solid" BorderWidth="1px"/>
+<asp:HyperLink runat="server" />
+<asp:HyperLink runat="server" align="Left" skinID="generalnotification"  Font-Size="1em" forecolor="#FFB612"/>
+<asp:HyperLink runat="server" align="right" skinID="NavLink"  Font-Size="1em" CssClass="NavItemClass" width="100%"  />
+
+<asp:LinkButton runat="server" align="right" skinID="NavLink"   Font-Size="1em" CssClass="NavItemClass" width="100%" />
+<asp:LinkButton runat="server" skinID="ExpandLink"   Font-Size="1em" />
+<asp:LinkButton runat="server" width="150px"  Font-Size="1em"/>
+
+<asp:Button runat="server"  Font-Size="1em" CssClass="button"/>
+<asp:Button skinid="LoginStyle" runat="server" Font-Size="1em" CssClass="button"/>
+
+<asp:Label runat="server"  Font-Size="1em"/>
+<asp:Label skinid="NavHeader" runat="server"  Font-Size="1.2em" Font-Bold="True" font-underline="True" CssClass="NavHeaderClass" width="100%" />
+<asp:Label skinid="header" runat="server" Font-Names="Arial Bold" Font-Size="1em" Font-Bold="True" font-underline="True"/>
+<asp:Label skinid="pageheaderlabel" runat="server"  Font-Size="1.4em" Font-Bold="True" font-underline="false"/>
+<asp:Label skinid="generalnotification" runat="server" Font-Names="Arial Bold" Font-Size="1em" forecolor="#FFB612" />
+<asp:Label skinid="oppositegeneralnotification" runat="server" Font-Names="Arial Bold" Font-Size="1em" />
+<asp:Label skinid="AccentHeader" runat="server" Font-Names="Arial Bold" Font-Size="1em" Font-Bold="True" font-underline="True" />
+
+<asp:dropdownlist runat="server" BorderWidth="1px"  Font-Size="1em" BorderColor="#000000" BorderStyle="Solid"/>
+
+<asp:GridView runat="server" CellPadding="2" gridlines="both" BorderColor="#000000" EmptyDataRowStyle-BackColor="#B8C2C8" >
+    <HeaderStyle CssClass="headerstyle"/>
+	<RowStyle CssClass="RowStyle" />		
+	<AlternatingRowStyle backcolor="#FAFFD1" CssClass="AltRowStyle"/>
+	
+</asp:GridView>
+<asp:GridViewRow runat="server" BackColor="Yellow" skinid="HighlightMe"></asp:GridViewRow>
+<cc2:BulkEditGridView runat="server" CellPadding="2" gridlines="both" BorderColor="#000000" EmptyDataRowStyle-BackColor="#B8C2C8" >
+    <HeaderStyle CssClass="headerstyle"/>
+	<RowStyle CssClass="RowStyle" />		
+	<AlternatingRowStyle backcolor="#FAFFD1" CssClass="AltRowStyle"/>
+	<FooterStyle Font-Size=".8em" />
+</cc2:BulkEditGridView>
+
+<asp:datagrid skinid="chartgrid" runat="server" CellPadding="1" gridlines="both" BorderColor="#000000" EmptyDataRowStyle-BackColor="#B8C2C8" >
+	<HeaderStyle  Font-Size="1em" CssClass="GenericGridHeader" backcolor="#412D5D" forecolor="#ffffff"/>
+	<ItemStyle Font-Bold="False" />		
+	<AlternatingItemStyle Font-Bold="False" backcolor="#FAFFD1"/>
+	<FooterStyle Font-Bold="False" Font-Size=".8em" />
+</asp:datagrid>
+
+<asp:DetailsView runat="server" Font-Size="1em" BorderColor="#000000" EmptyDataRowStyle-BackColor="#B8C2C8" >
+    <HeaderStyle  Font-Size="1em" CssClass="GenericGridHeader" backcolor="#412D5D" forecolor="#ffffff" />
+    <RowStyle Font-Bold="False" backcolor="#FAFFD1"/>	
+</asp:DetailsView>  
+
+<asp:Panel runat="server" skinid="ModalPanel" BorderStyle="solid" backcolor="#FAFFD1"/>
+
+<asp:TreeView runat="server" ShowLines="True" ImageSet="Simple">
+    <ParentNodeStyle Font-Bold="False" />
+    <HoverNodeStyle Font-Underline="False" />
+    <SelectedNodeStyle forecolor="#FFB612" Font-Underline="True" HorizontalPadding="0px" VerticalPadding="0px" Font-Bold="True" Font-Italic="True" ImageUrl="~/CommonImages/rightarrow.gif" />
+    <NodeStyle  forecolor="#4D4DFF" HorizontalPadding="0px" NodeSpacing="0px" VerticalPadding="0px" />
+</asp:TreeView>
+
+<ew:MultiTextListBox runat="server"  Font-Size="1em"/>
+
+<ew:MultiTextDropDownList runat="server"  Font-Size="1em"/>   
+
+<asp:Menu runat="server" BackColor="#412D5D" 
+    DynamicHorizontalOffset="2" Font-Names="Verdana" ForeColor="#ffffff" 
+    StaticSubMenuIndent="10px" StaticDisplayLevels="1" Font-Size="1em" SkinID="DefaultMenu">
+    <StaticSelectedStyle BackColor="#412D5D" />
+    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+    <DynamicMenuStyle BackColor="#412D5D"/>
+    <DynamicSelectedStyle BackColor="#412D5D" />
+    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+    <DynamicHoverStyle BackColor="#412D5D" Font-Bold="False" Font-Underline="true" ForeColor="White"/>
+    <StaticHoverStyle BackColor="White" Font-Bold="False" ForeColor="#412D5D" />
+</asp:Menu>
+
+<WebChart:ChartControl runat="server">
+    <Background Color="#412D5D"/>
+    <Border Color="#ffffff" />
+    <ChartTitle Font="Arial, 12px, style=Bold" ForeColor="White" />
+</WebChart:ChartControl>
+
+<asp:Image runat="server" skinid="mainlogo" AlternateText="Centric, LLC" BackColor="Transparent" style="padding-right:3%;"/> 
+<asp:LoginStatus runat="server" Font-Size=".5em"/>
+<asp:LoginName runat="server" Font-Size=".5em"/>
+
+
+<%--These are only for disabling the viewing of notes until physically I remove them from the pages.--%>
+<asp:GridView runat="server" skinid="mynotes" visible="true" CellPadding="2" gridlines="both" BorderColor="#000000" EmptyDataRowStyle-BackColor="#B8C2C8" >
+    <HeaderStyle CssClass="headerstyle"/>
+	<RowStyle CssClass="RowStyle" />		
+	<AlternatingRowStyle backcolor="#FAFFD1" CssClass="AltRowStyle"/>
+	<FooterStyle Font-Size=".8em" />
+</asp:gridview>	
+<asp:Label runat="server" skinid="mynotes" visible="true"/>
