@@ -57,7 +57,7 @@
             </asp:UpdatePanel>
         </div>
         <div id="footer" >
-            <p id="copyright">&copy; 2009 Joseph Ours. All Rights Reserved. </p><br />
+            <p id="copyright">&copy; 2009 Centric Consulting. All Rights Reserved. </p><br />
         </div>
         <asp:ObjectDataSource ID="ODS_Months" runat="server" TypeName="cForecast" SelectMethod="GetReportMonths" />
     <asp:ObjectDataSource ID="ODS_AccountGroup" runat="server" SelectMethod="GetAllAccountGroupsByBU" TypeName="cAccountClientIndustry" >
