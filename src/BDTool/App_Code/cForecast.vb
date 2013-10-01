@@ -127,7 +127,7 @@ Public Class cForecast
                 End If
 
                 'tempPredicted will contain a value, including 0.  If it is null, then the sum function will null it out.
-				tempPredicted = Convert.ToString(dsPredicted.Tables(0).Compute("Sum(SumOfRevenue)", "AccountGroupID=" & dr.Item("AccountGroupID") & " and MonthlyReportDate=" & myReportingMonths(x).ReportMonth & " and ExcludeFromBURevenueCalculation = False"))
+                tempPredicted = Convert.ToString(dsPredicted.Tables(0).Compute("Sum(SumOfRevenue)", "AccountGroupID=" & dr.Item("AccountGroupID") & " and MonthlyReportDate=" & myReportingMonths(x).ReportMonth))
                 If IsNumeric(tempPredicted) Then
                     ForecastedRevenue = tempPredicted
                 Else
